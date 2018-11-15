@@ -1,3 +1,8 @@
+<!-- default file list -->
+*Files to look at*:
+
+* [Form1.cs](./CS/Form1.cs) (VB: [Form1.vb](./VB/Form1.vb))
+<!-- default file list end -->
 # How to add a datasource to the Component Tray and make it available in the Property Grid of the End-User Designer
 
 
