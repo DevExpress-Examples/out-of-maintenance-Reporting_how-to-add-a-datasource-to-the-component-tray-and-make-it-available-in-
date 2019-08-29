@@ -16,8 +16,7 @@ Namespace EUD_AddDataSource
 		Private ds As New nwindDataSet()
 		Private adapter As New ProductsTableAdapter()
 
-		Private Sub button1_Click(ByVal sender As Object, ByVal e As EventArgs) _
-		Handles button1.Click
+		Private Sub button1_Click(ByVal sender As Object, ByVal e As EventArgs) Handles button1.Click
 			' Create an End-User Designer form.
 			Dim form As New XRDesignFormEx()
 
@@ -25,8 +24,7 @@ Namespace EUD_AddDataSource
 			Dim report As New XtraReport1()
 
 			' Add data components to the Designer Host.
-			AddHandler form.DesignPanel.DesignerHostLoaded, _
-			AddressOf OnDesignerLoaded
+			AddHandler form.DesignPanel.DesignerHostLoaded, AddressOf OnDesignerLoaded
 
 			' Load the report into the End-User Designer.
 			form.OpenReport(report)
